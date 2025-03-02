@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Figtree', sans-serif;
 }
 
 body {
@@ -13,12 +14,56 @@ body {
 
 .box {
   background-color: white;
-  width: 384px;
+  width: min-content;
   border-radius: 5%;
   border: 1px solid black;
-
+  padding: 3%;
 }
 
 .img-post {
   width: 336px;
+  border-radius: 3%;
+}
+
+.tag-post {
+  background-color: #F4D04E;
+  border-radius: 3px;
+  width: min-content;
+  padding: 5px 13px;
+  margin: 10px 0;
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.post-date {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  color: #6b6b6b;
+  margin-bottom: 10px;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.author-image {
+  width: 32px;
+  margin: 0 10px 0 0;
+}
+
+.author-name {
+  font-weight: 800;
+  font-size: 14px;
 }
