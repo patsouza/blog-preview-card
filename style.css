@@ -70,6 +70,7 @@ body {
 
 .author-image {
   width: 32px;
+  margin-right: 10px; 
 }
 
 .author-name {

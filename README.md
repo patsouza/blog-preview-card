@@ -8,5 +8,5 @@ O shadow box é um efeito interessante também e bem charmoso.
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/assets/images/screenshot.jpg)
 
