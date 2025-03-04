@@ -10,6 +10,6 @@ O shadow box é um efeito interessante também e bem charmoso.
 
 ![](/assets/images/screenshot.jpg)
 
-### Link do projeoto
+### Link do projeto
 [Acesse aqui o projeto](https://blog-preview-card-eta-pink.vercel.app/)
 
