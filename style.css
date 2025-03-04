@@ -17,12 +17,16 @@ body {
   width: min-content;
   border-radius: 5%;
   border: 1px solid black;
-  padding: 3%;
+  padding: 1.5%;
   box-shadow: 7px 7px;
 }
 
+.content > * {
+  margin-bottom: 10px;
+}
+
 .img-post {
-  width: 336px;
+  width: 320px;
   border-radius: 3%;
 }
 
@@ -31,14 +35,12 @@ body {
   border-radius: 3px;
   width: min-content;
   padding: 5px 13px;
-  margin: 10px 0;
   font-weight: 800;
   font-size: 14px;
 }
 
 .post-date {
   font-size: 14px;
-  margin-bottom: 10px;
   color: #111;
 }
 
@@ -47,6 +49,7 @@ body {
   font-weight: 800;
   text-decoration: none;
   color: inherit;
+  display: block;
 }
 
 .title:hover {
@@ -56,18 +59,17 @@ body {
 .description {
   font-size: 16px;
   color: #6b6b6b;
-  margin: 10px 0;
 }
 
 .author {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 2% 0;
 }
 
 .author-image {
   width: 32px;
-  margin: 0 10px 0 0;
 }
 
 .author-name {
